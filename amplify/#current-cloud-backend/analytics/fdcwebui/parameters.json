@@ -1,0 +1,11 @@
+{
+    "appName": "fdcwebui",
+    "roleName": "pinpointLambdaRole4553a1bc",
+    "cloudWatchPolicyName": "cloudWatchPolicy4553a1bc",
+    "pinpointPolicyName": "pinpointPolicy4553a1bc",
+    "authPolicyName": "pinpoint_amplify_4553a1bc",
+    "unauthPolicyName": "pinpoint_amplify_4553a1bc",
+    "authRoleName": "fdcwebui-20181008220512-authRole",
+    "unauthRoleName": "fdcwebui-20181008220512-unauthRole",
+    "IAMPrefix": "646459707360"
+}

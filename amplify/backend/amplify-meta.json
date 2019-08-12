@@ -1,0 +1,52 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "fdcwebui-20181008220512-authRole",
+			"UnauthRoleArn": "arn:aws:iam::646459707360:role/fdcwebui-20181008220512-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::646459707360:role/fdcwebui-20181008220512-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "fdcwebui-20181008220512-deployment",
+			"UnauthRoleName": "fdcwebui-20181008220512-unauthRole",
+			"StackName": "fdcwebui-20181008220512",
+			"StackId": "arn:aws:cloudformation:us-east-1:646459707360:stack/fdcwebui-20181008220512/c28e0f00-cb67-11e8-acca-500c5240582a"
+		}
+	},
+	"auth": {
+		"cognito5e493dca": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/fdcwebui-20181008220512-deployment/amplify-cfn-templates/auth/cognito5e493dca-cloudformation-template.yml",
+				"logicalId": "authcognito5e493dca"
+			},
+			"lastPushTimeStamp": "2018-10-26T02:33:10.375Z",
+			"output": {
+				"AppClientSecret": "1as8ee2tkp7o931fr5dned6029hsnd6urjeocftps1urbbvg6qg0",
+				"UserPoolId": "us-east-1_4Bw9XVPxx",
+				"AppClientIDWeb": "38nqlnr8p7q7jcj4cbelrtlbel",
+				"AppClientID": "68nrt87q8a5tuohhg5rm8cf0vi",
+				"IdentityPoolId": "us-east-1:3d252059-96c5-4c80-9d72-1aa4061390fa",
+				"IdentityPoolName": "fdc_identitypool_5e493dca",
+				"UserPoolName": "fdc_userpool_5e493dca"
+			},
+			"lastPushDirHash": "egbcYmPtkX4WYICzTZPmMT0szEo="
+		}
+	},
+	"analytics": {
+		"fdcwebui": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/fdcwebui-20181008220512-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+				"logicalId": "analyticsfdcwebui"
+			},
+			"lastPushTimeStamp": "2018-10-26T02:33:10.374Z",
+			"output": {
+				"appName": "fdcwebui",
+				"Region": "us-east-1",
+				"Id": "369b3a4ba6d34a0bb9350d3f6d24f472"
+			},
+			"lastPushDirHash": "A4jmAD79Y7+uKfouAwlfKwjZX8E="
+		}
+	}
+}
